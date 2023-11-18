@@ -22,7 +22,7 @@
 
 .post p {
   text-align: justify;
-  text-indent: 1.5em;
+  margin-top: 1em;
   text-justify: inter-word;
 }
 
@@ -62,4 +62,18 @@
   padding: 1em;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+h1.with-subtitle {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+h1.after-title {
+  margin-top: .5em;
+  padding-top: 0;
+}
+
+.source {
+  margin-top: 2em;
 }

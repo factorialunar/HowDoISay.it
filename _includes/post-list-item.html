@@ -1,19 +1,19 @@
 <li>
-  <a href="{{ post.url | absolute_url }}" class="post-link">
+  <a href="{{ word.url | absolute_url }}" class="post-link">
     <div class="post-link__heading">
-      {% unless post.title == "" %}
-          <h1 class="post-link__title">      
-            {{ post.title }}
+      {% unless word.title == "" %}
+          <h1 class="post-link__title">
+            {{ word.title }}
           </h1>
       {% else %}
         {% include post-excerpt.html %}
       {% endunless %}
-      {% if post.title != "" and site.show_excerpts == true %}
+      {% if word.title != "" and site.show_excerpts == true %}
         {% include post-excerpt.html %}
       {% endif %}
     </div>
     <span class="post-date">
-      {{ post.date | date: "%b %-d, '%y" }}
+      {{ word.pronunciation | date: "%b %-d, '%y" }}
     </span>
   </a>
 </li>

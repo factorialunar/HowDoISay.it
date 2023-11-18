@@ -6,3 +6,15 @@
   margin: .5em auto 0;
   background: url(#{$asset_url}/images/divider.svg) no-repeat top center;
 }
+
+@mixin link {
+  background: url(#{$asset_url}/images/link.svg) no-repeat center left;
+  width: 20px;
+  height: 20px;
+}
+
+@mixin arrow-back {
+  background: url(#{$asset_url}/images/arrow-left.svg) no-repeat center left;
+  width: 20px;
+  height: 20px;
+}
